@@ -15,7 +15,7 @@ def strtobool(v):
 @app.route('/')
 def index():
 
-    return render_template('home.html')
+    return render_template('newindex.html')
 
 
 @app.route('/tweets')
